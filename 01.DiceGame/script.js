@@ -27,7 +27,7 @@ let score = [0,0];
 
 function winer()
 {
-    if(score[activePlayer]>=50)
+    if(score[activePlayer]>=100)
     {
         document.querySelector(`.score${activePlayer}`).textContent = "🏆Winner";
         Player2.classList.toggle("opacity");
